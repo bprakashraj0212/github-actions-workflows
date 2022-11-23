@@ -2,7 +2,7 @@
 name: Cron
 on:
   schedule:
-    # * is a special character in YAML so you have to quote this string
+    # * is a special character in YAML so you have to quote this string1
     # This example triggers the workflow every day at 5:30 and 17:30 UTC
     # https://crontab.cronhub.io/
     - cron: '30 5,17 * * *'
